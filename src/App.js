@@ -14,6 +14,7 @@ function App() {
       
       <div className='absolute bg-white m-5 rounded-md p-3 shadow-xl'>
         <p className='text-center'>Your Subscriptions</p>
+        <p className='text-xs'>Optimized for Mobile View</p>
         <div className='flex lg:flex-wrap'>
           <img alt='logo' src={Image} className='h-[130px] my-2' />
           <div className='flex flex-wrap ml-2'>
