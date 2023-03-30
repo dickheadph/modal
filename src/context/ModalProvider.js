@@ -1,3 +1,4 @@
+//used createContext to handle and manage both states and arrow functions
 import { createContext, useState } from 'react';
 
 const ModalContext = createContext();

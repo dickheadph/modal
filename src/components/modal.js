@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import ModalContext from '../context/ModalProvider';
 
 const Modal = () => {
+    
   const { agree, onProceed, onCancel } = useContext(ModalContext);
 
   return (
