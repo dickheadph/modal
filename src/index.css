@@ -1,0 +1,6 @@
+@tailwind base;
+.btn{
+  @apply py-2 px-4 rounded-md border-[1px];
+}
+@tailwind components;
+@tailwind utilities;
